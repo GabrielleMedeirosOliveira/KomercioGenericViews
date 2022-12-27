@@ -1,0 +1,81 @@
+[
+    {
+      "model": "users.user",
+      "pk": "a3e0340d-41ce-4641-9ff7-db9fe7b7179c",
+      "fields": {
+        "password": "pbkdf2_sha256$390000$2W62IuPpmVdG6FOEZ4k1xI$z4VF0VAYyKZwGdMtT9W+A2JTABIRsub205W4rv2wmek=",
+        "last_login": null,
+        "is_superuser": false,
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-10-19T22:13:33.159Z",
+        "username": "salem",
+        "first_name": "Salem",
+        "last_name": "Roberti",
+        "is_seller": true,
+        "groups": [],
+        "user_permissions": []
+      }
+    },
+    {
+      "model": "users.user",
+      "pk": "b3a326d2-85fa-4761-af63-8e11f91df202",
+      "fields": {
+        "password": "pbkdf2_sha256$390000$9WZzRIXkOVGr4vA3frXqNs$+K5jfGwfCOuWRb7CYZrQAC830TMpEW6C4xRne/95qr4=",
+        "last_login": null,
+        "is_superuser": false,
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-10-21T19:05:05.962Z",
+        "username": "arthur",
+        "first_name": "Arthur",
+        "last_name": "Roberti",
+        "is_seller": true,
+        "groups": [],
+        "user_permissions": []
+      }
+    },
+    {
+      "model": "users.user",
+      "pk": "f16b3d37-208b-4399-8349-8fa2532424e6",
+      "fields": {
+        "password": "pbkdf2_sha256$390000$IZeVtuTfNwn5lQAP4BpiSO$Xo641hVw434eYFQ2o77d8urqKTXw0Zw1ueCzXCSyjS0=",
+        "last_login": null,
+        "is_superuser": false,
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-10-21T23:40:04.377Z",
+        "username": "susi",
+        "first_name": "Susimara",
+        "last_name": "Roberti",
+        "is_seller": false,
+        "groups": [],
+        "user_permissions": []
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": "221032e1-e7ad-4f4c-8c29-e61989bed272",
+      "fields": {
+        "description": "Computer ASUS",
+        "price": "2999.99",
+        "quantity": 15,
+        "is_active": true,
+        "seller": "b3a326d2-85fa-4761-af63-8e11f91df202"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": "4a9e4d5b-226f-4d2f-975b-2b159b73754d",
+      "fields": {
+        "description": "Smartband XYZ 3.0",
+        "price": "100.99",
+        "quantity": 15,
+        "is_active": true,
+        "seller": "a3e0340d-41ce-4641-9ff7-db9fe7b7179c"
+      }
+    }
+]
